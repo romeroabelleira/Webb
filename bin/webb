@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'webb'
+require 'webb/cli'
+Webb::CLI.start(ARGV)
