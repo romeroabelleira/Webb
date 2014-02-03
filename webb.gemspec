@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Juan Romero Abelleira"]
   spec.email         = ["romero@cedras.ch"]
   spec.description   = %q{Discovers active HTTP servers within a provided range.}
-  spec.summary       = %q{Webb discovers active HTTP servers within a provided range. Named after the space telescope named after James E. Webb. Powered by cedras GmbH, Winterthur, Switzerland.}
+  spec.summary       = %q{Webb discovers active HTTP servers within a provided range and opens the addresses in Safari. Named after the space telescope named after James E. Webb. Powered by cedras GmbH, Winterthur, Switzerland.}
   spec.homepage      = "http://cedras.net"
   spec.license       = "MIT"
 
@@ -28,5 +28,4 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency     'thor',                 '~> 0.18.1'
   spec.add_runtime_dependency     'typhoeus',             '~> 0.6.7'
-  spec.add_runtime_dependency     'activesupport',        '~> 4.0.2'
 end
