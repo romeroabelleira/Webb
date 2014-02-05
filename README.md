@@ -1,6 +1,9 @@
 # Webb
 
-TODO: Write a gem description
+Webb discovers active HTTP servers within a provided range and opens the addresses in Safari.
+Named after the space telescope named after James E. Webb.
+
+Powered by cedras GmbH, Winterthur, Switzerland.
 
 ## Installation
 
@@ -18,7 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ webb scan 172.16.0.0
+    
+    $ webb sweep 172.16.0.0 172.18.255.255
 
 ## Contributing
 
