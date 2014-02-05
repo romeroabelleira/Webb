@@ -10,7 +10,7 @@ class Webb::CLI < Thor
 
   desc "scan ADDRESS", "Scans a single address for responding webservers."
   def scan(address)
-    request = Typhoeus::Request.new(address, followlocation: true)
+    request = Typhoeus::Request.new(address, followlocation: true, timeout: 2)
 
     request.on_complete do |response|
       %x{open http://#{address}} if response.success?
